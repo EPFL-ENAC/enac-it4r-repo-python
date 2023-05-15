@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project_name"
+authors = [{name = "ENAC-IT4R"}]
+description = "A low dependency and really simple to start project template for Python Projects."
+readme = "README.md"
+keywords = ["python"]
+classifiers = [
+	"Development Status :: 1 - Planning",
+	"Intended Audience :: Developers",
+	"Programming Language :: Python :: 3",
+	"Operating System :: Unix",
+	"Operating System :: MacOS :: MacOS X",
+	"Operating System :: Microsoft :: Windows",
+]
+
+# Environment settings
+requires-python = ">=3.8"
+dependencies = [
+	"click"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+	"pre-commit==3.3.1",
+	"pytest",
+	"pytest-cov",
+	"pytest-mock",
+	"black==22.8.0",
+	"ruff==0.0.257"
+	]
+
+# Linter settings
+[tool.ruff]
+select = ["F",
+	  "E",
+	  "I",
+	  "Q",
+	  "W",
+	  "UP",
+	  # "SIM",
+	  # "PTH",
+	  # "RET",
+	 ]
+ignore = ["E722"]
+line-length = 120
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
+unfixable = []
+
+# Code formatter
+[tool.black]
+line-length = 120
+preview = true
+
+# Tests
+[tool.coverage.run]
+omit = []
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report html --cov-report term-missing --cov-fail-under 95"
