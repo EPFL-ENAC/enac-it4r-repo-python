@@ -1,9 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0", "setuptools-scm"]
+requires = ["setuptools>=61.0", "setuptools-scm","wheel","gitchangelog"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "project_name"
+version = "0.1.0"
 authors = [{name = "ENAC-IT4R"}]
 description = "A low dependency and really simple to start project template for Python Projects."
 readme = "README.md"
@@ -22,7 +23,7 @@ requires-python = ">=3.8"
 dependencies = [
 	"click"
 ]
-dynamic = ["version"]
+
 
 [project.optional-dependencies]
 dev = [
