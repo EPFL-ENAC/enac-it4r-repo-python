@@ -1,6 +1,24 @@
 # Getting Started
 
-## **Python quick setup**
+
+**What is included on this template?**
+
+🖼️ Templates for starting multiple type of python projects.
+
+📦 A basic `pyproject.toml` file to provide installation, packaging and distribution for your project.
+
+🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/).
+
+✅ Code linting and formater using [Black](https://github.com/psf/black) and [Ruff](https://github.com/charliermarsh/ruff).
+
+🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to lint, test and release your project on Linux, Mac and Windows environments
+
+📃 Documentation with sphinx.
+
+💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
+
+
+## Python quick setup
 
 For a quick guide to installing Python and setting it up, please take a look at the [ENAC-IT4R Python webpage](https://www.notion.so/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e).
 
