@@ -1,3 +1,7 @@
+# ENAC-IT4R Python project template
+
+## Introduction
+
 **What is included on this template?**
 
 🖼️ Templates for starting multiple type of python projects.
@@ -100,9 +104,9 @@ To install these dependencies, run:
 pip install .[dev]
 ```
 
-## Code quality (linter + formatter)
+## Code quality (linter + formatter + typing)
 
-We use Black as a code formatter and Ruff as a linter to guarantee good code quality.
+We use Black as a code formatter, Ruff as a linter, and mypy as a static type checker. These tools aim to guarantee good code quality.
 
 After setting up your development environment, install the git pre-commit hook by executing the following command in the repository’s root:
 
@@ -116,7 +120,7 @@ Pre-commit can be run as follows:
 pre-commit run --all-files
 ```
 
-Note that it will only run Ruff and Black against staged files.
+Note that it will only run Ruff, Black and Mypy against staged files.
 
 To run Ruff against all files individually:
 
@@ -129,6 +133,14 @@ And black as well :
 ```bash
 black .
 ```
+
+To run mypy against all files individually:
+
+```bash
+mypy .
+```
+
+Note that no error is raised if a function is not typed.
 
 The pre-commit hooks are scripts executed automatically in every commit to identify simple code quality issues.
 
@@ -152,7 +164,7 @@ Note that `pytest-cov` has been added to `pyproject.toml`. Therefore, running py
 
 ## Continuous integration / continuous delivery
 
-### Code quality (linter + formatter)
+### Code quality (linter + formatter + types checker)
 
 The file `.github/workflows/code_quality.yml` runs Ruff and Black on every push and pull request to verify the conformity of the code.
 
