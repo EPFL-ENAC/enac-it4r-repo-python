@@ -33,7 +33,12 @@ dev = [
 	"pytest-mock",
 	"black==22.8.0",
 	"ruff==0.0.257",
-	"mypy"
+	"mypy",
+	"sphinx",
+	"sphinx_rtd_theme",
+	"nbsphinx",
+	"sphinx-pyproject",
+	"sphinx-mdinclude"
 	]
 
 # Linter settings
@@ -83,3 +88,21 @@ warn_return_any = false
 warn_unreachable = true
 show_error_codes = true
 pretty = true
+
+[tool.sphinx-pyproject]
+github_username = ""
+github_repository = ""
+author = ""
+project = ""
+copyright = ""
+language = "en"
+package_root = ""
+extensions = [
+	"sphinx.ext.napoleon",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.autosectionlabel",
+    "nbsphinx",
+    "sphinx_mdinclude",
+]
+html_theme = "sphinx_rtd_theme"
