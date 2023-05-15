@@ -1,4 +1,4 @@
-name: code_quality
+name: Code quality
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
