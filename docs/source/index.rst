@@ -7,12 +7,12 @@ Documentation
 
    installation
 
+   project_name
 
 
-.. toctree::
-   :maxdepth: 1
 
-   API <api/modules>
+
+
 
 
 

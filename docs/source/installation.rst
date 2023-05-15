@@ -1,5 +1,0 @@
-=========================
-Installation
-=========================
-
-You documentation here

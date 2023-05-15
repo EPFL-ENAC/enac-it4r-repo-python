@@ -1,6 +1,6 @@
-from project_name.hello import get_python_version
+from project_name.foo import bar
 
 
-def test_get_python_version():
+def test_bar():
     # Test the return type
-    assert isinstance(get_python_version(), str)
+    assert isinstance(bar(), str)
