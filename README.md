@@ -6,6 +6,7 @@ For a quick guide to installing Python and setting it up, please take a look at 
 
 This repository contains the following files and folders:
 
+```
 📦 Repository
  ┣ 📁 .github : contain the github settings
  ┣ 📁 ISSUE_TEMPLATE : contains issues templates
@@ -22,7 +23,9 @@ This repository contains the following files and folders:
  ┣ 📜 pre-commit-config.yaml: configuration file for pre-commit.
  ┣ 📜 LICENSE: license file.
  ┣ 📜 pyproject.toml: project configuration file.
- ┣ 📜 [README.md](http://readme.md/): markdown file containing the project's readme.
+ ┣ 📜 README.md: markdown file containing the project's readme.
+ ```
+
 
 ## Python environment
 
