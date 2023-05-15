@@ -6,37 +6,23 @@ For a quick guide to installing Python and setting it up, please take a look at 
 
 This repository contains the following files and folders:
 
-📁 .github : contain the github settings
-
-┣📁 ISSUE_TEMPLATE : contains issues templates
-
-┃ ┣📜 *.yaml
-
-┣📁 workflows : contains CICD processes
-
-┃ ┣📜 code_quality.yml : Ruff + Black + mypy
-
-┃ ┣📜 tests.yml : pytest + CodeCov
-
-┣📁 docs: contains the documentation.
-
-┣📁 project_name: contains the project code.
-
-┃ ┣📜 *.py
-
-┣📁 test: contains the project tests.
-
-┃ ┣📜 test_*.py
-
-┣📜 .gitignore: lists the files/folders to ignore for git.
-
-┣📜 pre-commit-config.yaml: configuration file for pre-commit.
-
-┣📜 LICENSE: license file.
-
-┣📜 pyproject.toml: project configuration file.
-
-┣📜 [README.md](http://readme.md/): markdown file containing the project's readme.
+📦 Repository
+ ┣ 📁 .github : contain the github settings
+ ┣ 📁 ISSUE_TEMPLATE : contains issues templates
+ ┃ ┗ 📜 *.yaml
+ ┣ 📁 workflows : contains CICD processes
+ ┃ ┣ 📜 code_quality.yml : Ruff + Black + mypy
+ ┃ ┗ 📜 tests.yml : pytest + CodeCov
+ ┣ 📁 docs: contains the documentation.
+ ┣ 📁 project_name: contains the project code.
+ ┃ ┗ 📜 *.py
+ ┣ 📁 test: contains the project tests.
+ ┃ ┗ 📜 test_*.py
+ ┣ 📜 .gitignore: lists the files/folders to ignore for git.
+ ┣ 📜 pre-commit-config.yaml: configuration file for pre-commit.
+ ┣ 📜 LICENSE: license file.
+ ┣ 📜 pyproject.toml: project configuration file.
+ ┣ 📜 [README.md](http://readme.md/): markdown file containing the project's readme.
 
 ## Python environment
 
