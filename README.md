@@ -1,6 +1,3 @@
-# Getting Started
-
-
 **What is included on this template?**
 
 🖼️ Templates for starting multiple type of python projects.
@@ -18,9 +15,12 @@
 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
 
 
-## Python quick setup
+**How to install python?**
 
 For a quick guide to installing Python and setting it up, please take a look at the [ENAC-IT4R Python webpage](https://www.notion.so/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e).
+
+
+**How to structure the project?**
 
 This repository contains the following files and folders:
 
