@@ -8,11 +8,15 @@
 
 ✅ Code linting and formater using [Black](https://github.com/psf/black) and [Ruff](https://github.com/charliermarsh/ruff).
 
+🤝 Typing checking using [mypy](https://mypy.readthedocs.io/en/stable/)
+
 🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to lint, test and release your project on Linux, Mac and Windows environments
 
 📃 Documentation with sphinx.
 
 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
+
+
 
 
 **How to install python?**
