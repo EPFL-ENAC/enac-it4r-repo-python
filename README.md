@@ -10,11 +10,13 @@
 
 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/).
 
-✅ Code linting and formater using [Black](https://github.com/psf/black) and [Ruff](https://github.com/charliermarsh/ruff).
+✅ Code linter [Ruff](https://github.com/charliermarsh/ruff).
 
-🤝 Typing checking using [mypy](https://mypy.readthedocs.io/en/stable/)
+✏️ Code formatter using [Black](https://github.com/psf/black).
 
-🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to lint, test and release your project on Linux, Mac and Windows environments
+🤝 Typing checking using [mypy](https://mypy.readthedocs.io/en/stable/).
+
+🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 📃 Documentation with sphinx.
 
