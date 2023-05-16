@@ -51,6 +51,14 @@ This repository contains the following files and folders:
  ┣ 📜 readthedocs.yml: Settings for readthedocs.
  ```
 
+## Documentation
+
+Please take a look at the following resources:
+
+* [Template documentation](https://enac-it4r-repo-python.readthedocs.io)
+* [ENAC-IT4R python guidelines](https://enacit4r.notion.site/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e)
+* [ENAC-IT4R git guidelines](https://enacit4r.notion.site/Install-Git-0a608fb1909f471284c189cf172c9016)
+
 
 
 ## Todo when setting up your github repo
