@@ -14,11 +14,11 @@
 
 ✏️ Code formatter using [Black](https://github.com/psf/black).
 
-🤝 Typing checking using [mypy](https://mypy.readthedocs.io/en/stable/).
+🤝 Typing checking using [Mypy](https://mypy.readthedocs.io/en/stable/).
 
 🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
-📃 Documentation with sphinx.
+📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/).
 
 
 
@@ -42,9 +42,13 @@ This repository contains the following files and folders:
  ┃ ┗ 📜 test_*.py
  ┣ 📜 .gitignore: lists the files/folders to ignore for git.
  ┣ 📜 pre-commit-config.yaml: configuration file for pre-commit.
+ ┣ 📜 CITATION.cff: citation information.
+ ┣ 📜 CODE_OF_CONDUCT.md: code of conduct.
+ ┣ 📜 CONTRIBUTING.md: contributing guidelines.
  ┣ 📜 LICENSE: license file.
  ┣ 📜 pyproject.toml: project configuration file.
  ┣ 📜 README.md: markdown file containing the project's readme.
+ ┣ 📜 readthedocs.yml: Settings for readthedocs.
  ```
 
 
