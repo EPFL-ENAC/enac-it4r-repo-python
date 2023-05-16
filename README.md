@@ -18,9 +18,6 @@
 
 📃 Documentation with sphinx.
 
-💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
-
-
 
 
 ## Template structure
@@ -47,3 +44,16 @@ This repository contains the following files and folders:
  ┣ 📜 pyproject.toml: project configuration file.
  ┣ 📜 README.md: markdown file containing the project's readme.
  ```
+
+
+
+## Todo when setting up your github repo
+
+- [ ] Learn how to use github template repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+- [ ] Activate discussion (https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings)
+- [ ] Replace `{YOUR-REPO-NAME}` by the name of your repo
+- [ ] Modifiy or remove the `CITATION.cff` file. [How to format it ?](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
+- [ ] Check if you need all those labels: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/labels
+- [ ] Create your first milestone: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/milestones
+- [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings/branches
+- [ ] Change `project_name` in the code with your project name.
