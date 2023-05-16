@@ -22,12 +22,9 @@
 
 
 
-**How to install python?**
 
-For a quick guide to installing Python and setting it up, please take a look at the [ENAC-IT4R Python webpage](https://www.notion.so/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e).
+## Template structure
 
-
-**How to structure the project?**
 
 This repository contains the following files and folders:
 
