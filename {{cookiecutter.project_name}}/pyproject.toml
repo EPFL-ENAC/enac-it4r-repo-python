@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0", "setuptools-scm","wheel","gitchangelog"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
-version = "0.1.0"
-authors = [{name = "ENAC-IT4R"}]
-description = "A low dependency and really simple to start project template for Python Projects."
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+description =  "{{cookiecutter.description}}"
 readme = "README.md"
 keywords = ["python"]
 classifiers = [
