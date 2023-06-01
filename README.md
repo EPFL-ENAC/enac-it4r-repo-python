@@ -23,52 +23,24 @@ This template serves as a foundation for developing Python projects using  moder
 
 
 
-## Template structure
 
+## How to use this template ?
 
-This repository contains the following files and folders:
+1. Create a bran new Github repository to host your project.
+1. Clone this repository to your local machine. 
+1. Install Cookiecutter: If you haven't already, you need to install Cookiecutter on your system. You can use pip, the Python package manager, to install Cookiecutter by running the following command:
 
-```
-📦 Repository
- ┣ 📁 .github : contain the github settings
- ┣ 📁 ISSUE_TEMPLATE : contains issues templates
- ┃ ┗ 📜 *.yaml
- ┣ 📁 workflows : contains CICD processes
- ┃ ┣ 📜 code_quality.yml : Ruff + Black + mypy
- ┃ ┗ 📜 tests.yml : pytest + CodeCov
- ┣ 📁 docs: contains the documentation.
- ┣ 📁 project_name: contains the project code.
- ┃ ┗ 📜 *.py
- ┣ 📁 test: contains the project tests.
- ┃ ┗ 📜 test_*.py
- ┣ 📜 .gitignore: lists the files/folders to ignore for git.
- ┣ 📜 pre-commit-config.yaml: configuration file for pre-commit.
- ┣ 📜 CITATION.cff: citation information.
- ┣ 📜 CODE_OF_CONDUCT.md: code of conduct.
- ┣ 📜 CONTRIBUTING.md: contributing guidelines.
- ┣ 📜 LICENSE: license file.
- ┣ 📜 pyproject.toml: project configuration file.
- ┣ 📜 README.md: markdown file containing the project's readme.
- ┣ 📜 readthedocs.yml: Settings for readthedocs.
- ```
+    ```bash
+    pip install cookiecutter  
+    ```
 
-## Documentation
+1. Generate the project from the template by running the following command with a command prompt or terminal from the clone repository location :
 
-Please take a look at the following resources:
+    ```bash
+    cookiecutter https://github.com/EPFL-ENAC/enac-it4r-repo-python
+    ```
+ 1. Provide input values: Cookiecutter will prompt you for input values to customize the generated project. The template may define variables or placeholders that need to be filled in. Answer the prompts with the desired values to configure your project.
 
-* [Template documentation](https://enac-it4r-repo-python.readthedocs.io)
-* [ENAC-IT4R python guidelines](https://enacit4r.notion.site/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e)
-* [ENAC-IT4R git guidelines](https://enacit4r.notion.site/Install-Git-0a608fb1909f471284c189cf172c9016)
+1. Generate the project: After providing all the necessary input values, Cookiecutter will generate the project based on the template. It will create a new directory with the generated project structure and files.
 
-
-
-## Todo when setting up your github repo
-
-- [ ] Learn how to use github template repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-- [ ] Activate discussion (https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings)
-- [ ] Replace `{YOUR-REPO-NAME}` by the name of your repo
-- [ ] Modifiy or remove the `CITATION.cff` file. [How to format it ?](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
-- [ ] Check if you need all those labels: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/labels
-- [ ] Create your first milestone: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/milestones
-- [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings/branches
-- [ ] Change `project_name` in the code with your project name.
+1. Customize the project: Once the project is generated, you can navigate to the newly created directory and start customizing the project according to your requirements. You can modify files, add additional dependencies, configure settings, and make any other necessary changes. Please follow this [guide](hhttps://enac-it4r-repo-python.readthedocs.io/en/latest/#) for more information on how to use this python tempate.
