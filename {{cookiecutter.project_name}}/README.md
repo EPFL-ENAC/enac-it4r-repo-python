@@ -31,11 +31,11 @@ This repository contains the following files and folders:
 ```
 📦 Repository
  ┣ 📁 .github : contain the github settings
- ┣ 📁 ISSUE_TEMPLATE : contains issues templates
- ┃ ┗ 📜 *.yaml
- ┣ 📁 workflows : contains CICD processes
- ┃ ┣ 📜 code_quality.yml : Ruff + Black + mypy
- ┃ ┗ 📜 tests.yml : pytest + CodeCov
+ ┃ ┗  📁 ISSUE_TEMPLATE : contains issues templates
+ ┃    ┗ 📜 *.yaml
+ ┃ ┗  📁 workflows : contains CICD processes
+ ┃    ┣ 📜 code_quality.yml : Ruff + Black + mypy
+ ┃    ┗ 📜 tests.yml : pytest + CodeCov
  ┣ 📁 docs: contains the documentation.
  ┣ 📁 project_name: contains the project code.
  ┃ ┗ 📜 *.py
