@@ -1,3 +1,7 @@
+[![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/your-username/your-repo)
+
+This project is currently under development.
+
 # ENAC-IT4R Python project template
 
 
