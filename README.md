@@ -26,7 +26,7 @@ This template serves as a foundation for developing Python projects using  moder
 
 ## How to use this template ?
 
-1. Create a bran new Github repository to host your project.
+1. Create a brand new Github repository to host your project.
 1. Clone this repository to your local machine. 
 1. Install Cookiecutter: If you haven't already, you need to install Cookiecutter on your system. You can use pip, the Python package manager, to install Cookiecutter by running the following command:
 
