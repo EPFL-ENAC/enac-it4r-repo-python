@@ -1,17 +1,13 @@
 
-[![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/your-username/your-repo)
-
-This project is currently under development.
-
-# ENAC-IT4R Python project template
+[![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/{{cookiecutter.github_repo_name}})
 
 
+# {{cookiecutter.project_name}}
 
-This template serves as a foundation for developing Python projects using  modern tools and best practices.
 
-**What is included on this template?**
 
-🖼️ Templates for starting multiple type of python projects.
+
+**What is included on this project?**
 
 📦 A basic `pyproject.toml` file to provide installation, packaging and distribution for your project.
 
@@ -23,13 +19,13 @@ This template serves as a foundation for developing Python projects using  moder
 
 🤝 Typing checking using [Mypy](https://mypy.readthedocs.io/en/stable/).
 
-🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to check the quality of your code.
+🔄 Continuous integration using [Github Actions](https://github.com/{{cookiecutter.github_repo_name}}/blob/main/.github/workflows) with jobs to check the quality of your code.
 
 📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/).
 
 
 
-## Template structure
+## Project structure
 
 
 This repository contains the following files and folders:
@@ -57,12 +53,4 @@ This repository contains the following files and folders:
  ┣ 📜 README.md: markdown file containing the project's readme.
  ┣ 📜 readthedocs.yml: Settings for readthedocs.
  ```
-
-## Documentation
-
-Please take a look at the following resources:
-
-* [Template documentation](https://enac-it4r-repo-python.readthedocs.io)
-* [ENAC-IT4R python guidelines](https://enacit4r.notion.site/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e)
-* [ENAC-IT4R git guidelines](https://enacit4r.notion.site/Install-Git-0a608fb1909f471284c189cf172c9016)
 

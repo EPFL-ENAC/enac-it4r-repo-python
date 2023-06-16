@@ -1,4 +1,4 @@
-[![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/your-username/your-repo)
+[![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/EPFL-ENAC/enac-it4r-repo-python)
 
 This project is currently under development.
 
@@ -23,7 +23,7 @@ This template serves as a foundation for developing Python projects using  moder
 
 🔄 Continuous integration using [Github Actions](https://github.com/rochacbruno/python-project-template/blob/main/.github/workflows) with jobs to check the quality of your code.
 
-📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/).
+📃 Documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) and [Readthedocs](https://readthedocs.org/). Include necessary details for generating documentation, performing test and code quality checks, and installing the project.
 
 
 
@@ -47,4 +47,16 @@ This template serves as a foundation for developing Python projects using  moder
 
 1. Generate the project: After providing all the necessary input values, Cookiecutter will generate the project based on the template. It will create a new directory with the generated project structure and files.
 
-1. Customize the project: Once the project is generated, you can navigate to the newly created directory and start customizing the project according to your requirements. You can modify files, add additional dependencies, configure settings, and make any other necessary changes. Please follow this [guide](hhttps://enac-it4r-repo-python.readthedocs.io/en/latest/#) for more information on how to use this python tempate.
+1. Customize the project: Once the project is generated, you can navigate to the newly created directory and start customizing the project according to your requirements. You can modify files, add additional dependencies, configure settings, and make any other necessary changes. Please follow this [guide](https://enac-it4r-repo-python.readthedocs.io/en/latest/#) for more information on how to use this python tempate.
+
+
+
+
+## Documentation
+
+Please take a look at the following resources:
+
+* [Template documentation](https://enacit4r.notion.site/ENAC-IT4R-Python-project-template-eca32ebf56e44a79a55faf2d57b5a796)
+* [ENAC-IT4R python guidelines](https://enacit4r.notion.site/Python-quick-setup-55d1e813f24d4a37a57e14c71c641a0e)
+* [ENAC-IT4R git guidelines](https://enacit4r.notion.site/Install-Git-0a608fb1909f471284c189cf172c9016)
+

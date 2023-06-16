@@ -3,5 +3,6 @@
     "version": "0.0.1",
     "full_name": "ENAC-IT4R",
     "email": "enacit4research@epfl.ch",
-    "description": "A low dependency and really simple to start project template for Python Projects."
+    "description": "A low dependency and really simple to start project template for Python Projects.",
+    "github_repo_name":"your-username-or-organizations/your-repo-name"
 }
