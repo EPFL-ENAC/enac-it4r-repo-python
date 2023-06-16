@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "{{cookiecutter.project_name}}"
 version = "{{cookiecutter.version}}"
-authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+authors = [{name = "{{cookiecutter.full_name}}"}]
+
 description =  "{{cookiecutter.description}}"
 readme = "README.md"
 keywords = ["python"]
