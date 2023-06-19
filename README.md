@@ -30,8 +30,12 @@ This template serves as a foundation for developing Python projects using  moder
 
 ## How to use this template ?
 
+On github (or any other git repository) :
+
 1. Create a brand new Github repository to host your project.
-1. Clone this repository to your local machine. 
+
+On your local computer :
+
 1. Install Cookiecutter: If you haven't already, you need to install Cookiecutter on your system. You can use pip, the Python package manager, to install Cookiecutter by running the following command:
 
     ```bash
@@ -47,7 +51,14 @@ This template serves as a foundation for developing Python projects using  moder
 
 1. Generate the project: After providing all the necessary input values, Cookiecutter will generate the project based on the template. It will create a new directory with the generated project structure and files.
 
-1. Customize the project: Once the project is generated, you can navigate to the newly created directory and start customizing the project according to your requirements. You can modify files, add additional dependencies, configure settings, and make any other necessary changes. Please follow this [guide](https://enac-it4r-repo-python.readthedocs.io/en/latest/#) for more information on how to use this python tempate.
+1. Customize the project: Once the project is generated, you can navigate to the newly created directory and start customizing the project according to your requirements. You can modify files, add additional dependencies, configure settings, and make any other necessary changes. 
+
+1. Link your folder to your repository :
+
+    ```bash
+    git init 
+    git remote add origin <repository-url>  
+    ```
 
 
 
