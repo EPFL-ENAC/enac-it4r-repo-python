@@ -50,6 +50,6 @@ To set up a virtual environment with venv, follow these steps :
 - Mac/Linux: Create a virtual environment with venv:
 
     ```bash
-    virtualenv -p python3 disdrodb-dev
-    source disdrodb-dev/bin/activate
+    virtualenv -p python3 venv
+    source venv/bin/activate
     ```
