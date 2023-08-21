@@ -12,8 +12,6 @@ _Before submitting your contribution, please make sure to take a moment and read
 - [Issue Reporting Guidelines](#issue-reporting-guidelines)
 - [Pull Request Guidelines](#pull-request-guidelines)
 - [Development Setup](#development-setup)
-- [Project Structure](#project-structure)
-- [Github Flow](#github-flow)
 - [Commit Lint](#commit-lint)
 
 ## Issue Reporting Guidelines
@@ -53,21 +51,7 @@ We use github to host code, to track issues and feature requests, as well as acc
 - It's better to create a branch from an issue, the issue number will directly be in the branch name
   - see [discussion for reference](https://github.com/github-community/community/discussions/12290)
 
-### Before you start
 
-1. Setup your environment to have immediate feedback on your changes:
-
-   - [Setup ESLint plugin](https://eslint.org/docs/user-guide/integrations) in your editor.
-   - [Setup Prettier plugin](https://prettier.io/docs/en/editors.html) in your editor.
-   - [Setup TypeScript](https://www.typescriptlang.org/index.html#download-links) or Flow in your editor.
-   - [Setup stylelint](https://stylelint.io/user-guide/complementary-tools#editor-plugins) in your editor.
-
-2. Read your team’s coding standards and style guides.
-
-## Python
-
-- We follow the pep8 and the python-guide writing style
-  - https://docs.python-guide.org/writing/style/
 
 ### maybe todo ?
 
@@ -129,11 +113,6 @@ After cloning the repo, run:
 ```bash
 $ make install # install the dependencies of the project
 ```
-
-## Project Structure
-
-- **`db`**: contains the data and database bootstrap code for the db
-- **`frontend`**: contains the source code. The codebase is written in typescript using class components for vue2 and vuetify as the library component. And ECharts as the chart library.
 
 ## Financial Contribution
 
