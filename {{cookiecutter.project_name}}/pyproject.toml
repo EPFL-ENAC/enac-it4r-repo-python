@@ -22,7 +22,7 @@ classifiers = [
 # Environment settings
 requires-python = ">=3.8"
 dependencies = [
-	"click"
+	"appeal"
 ]
 
 
