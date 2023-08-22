@@ -10,7 +10,7 @@ RUN python3 -m venv /opt/venv
 
 COPY pyproject.toml ./
 
-COPY {{cookiecutter.project_name}}/ /app
+COPY {{cookiecutter.project_slug}}/ /app
 
 RUN pip install .[dev]
 

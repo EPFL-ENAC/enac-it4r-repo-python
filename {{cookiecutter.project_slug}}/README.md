@@ -2,7 +2,7 @@
 [![Project Status](https://img.shields.io/badge/status-under%20development-yellow)](https://github.com/{{cookiecutter.github_repo_name}})
 
 
-# {{cookiecutter.project_name}}
+# {{cookiecutter.project_slug}}
 
 
 

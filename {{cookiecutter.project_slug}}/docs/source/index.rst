@@ -12,7 +12,7 @@ Documentation
    ci
 
 
-   {{cookiecutter.project_name}}
+   {{cookiecutter.project_slug}}
 
 
 
