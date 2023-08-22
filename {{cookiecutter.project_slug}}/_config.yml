@@ -1,0 +1,13 @@
+show_downloads: true
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - doc/source/code_quality.md
+  - doc/source/ci.md
+  - doc/source/code_testing.md
+  - doc/source/installation.md

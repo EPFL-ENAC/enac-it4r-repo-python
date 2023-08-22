@@ -11,7 +11,20 @@ def remove(filepath):
 
 create_docker_file = '{{cookiecutter.create_docker_file}}' ==  'yes'
 
-
 if not create_docker_file:
     # remove top-level file inside the generated folder
     remove('Dockerfile')
+
+
+value_create_doc = '{{cookiecutter.create_documentation}}'
+
+if value_create_doc == 'no':
+    # remove top-level file inside the generated folder
+    remove('docs')
+    remove('_config.yml')
+    remove('readthedocs.yml')
+elif value_create_doc == 'yes, with readthedocs':
+    remove('_config.yml')
+elif value_create_doc == 'yes, with GitHub Pages site with Jekyll':
+    remove('docs')
+    remove('readthedocs.yml')

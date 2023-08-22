@@ -20,8 +20,6 @@ Documentation
 
 
 
-
-
 Indices and tables
 ==================
 
