@@ -28,3 +28,10 @@ elif value_create_doc == 'yes, with readthedocs':
 elif value_create_doc == 'yes, with GitHub Pages site with Jekyll':
     remove('docs')
     remove('readthedocs.yml')
+
+create_jupyter_notebook = '{{cookiecutter.create_jupyter_notebook}}' ==  'yes'
+
+if not create_jupyter_notebook:
+    # remove top-level file inside the generated folder
+    path_folder = os.path.join(os.getcwd(),'{{cookiecutter.project_slug}}','notebooks')
+    remove(path_folder)

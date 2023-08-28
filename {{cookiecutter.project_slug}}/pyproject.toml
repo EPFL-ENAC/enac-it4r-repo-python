@@ -22,7 +22,8 @@ classifiers = [
 # Environment settings
 requires-python = ">=3.8"
 dependencies = [
-	"appeal"
+	"appeal",
+	{% if cookiecutter.create_jupyter_notebook == "yes"  %}"jupyter"{% endif %}
 ]
 
 

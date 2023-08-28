@@ -4,7 +4,18 @@
     "full_name": "ENAC-IT4R",
     "email": "enacit4research@epfl.ch",
     "description": "A low dependency and really simple to start project template for Python Projects.",
-    "github_repo_name":"your-username-or-organizations/your-repo-name",
-    "create_docker_file" :  ["yes", "no"],
-    "create_documentation" : ["no","yes, with readthedocs","yes, with GitHub Pages site with Jekyll"]
+    "github_repo_name": "your-username-or-organizations/your-repo-name",
+    "create_docker_file": [
+        "yes",
+        "no"
+    ],
+    "create_jupyter_notebook": [
+        "yes",
+        "no"
+    ],
+    "create_documentation": [
+        "no",
+        "yes, with readthedocs",
+        "yes, with GitHub Pages site with Jekyll"
+    ]
 }
