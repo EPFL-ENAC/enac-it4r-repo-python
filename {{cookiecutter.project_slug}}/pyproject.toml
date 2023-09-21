@@ -76,12 +76,11 @@ addopts = "--cov --cov-report html --cov-report term-missing --cov-fail-under 95
 [tool.mypy]
 # Specify the Python version you are using
 python_version = "3.10"
-
-
+# avoid folder
 # Exclude specific files or directories from type checking
 # Example:
 # exclude = ["tests"]
-exclude = ["tests","build"]
+exclude = ["tests","build","venv"]
 disallow_untyped_defs = false
 warn_unused_ignores = true
 warn_unused_configs = true
