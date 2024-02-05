@@ -1,13 +1,13 @@
 # Testing
 
-Every code change must be tested !
+Every code change must be tested!
 
 We recommend to use the third-party [pytest](https://docs.pytest.org/) package.
 
 The tests located in the `/tests`  folder are used to test various functions of the code and are
 automatically run when changes are pushed to the main repository through a GitHub Pull Request.
 
-To run all tested functions wih pytest, run :
+To run all tested functions with pytest, run:
 
 ```bash
 pytest -vv -s

@@ -33,15 +33,15 @@ dev = [
 	"pytest",
 	"pytest-cov",
 	"pytest-mock",
-	"black==22.8.0",
-	"ruff==0.0.257",
+	"black==24.1.1",
+	"ruff==0.2.0",
 	"mypy",
 	"sphinx",
 	"sphinx_rtd_theme",
 	"nbsphinx",
 	"sphinx-pyproject",
 	"sphinx-mdinclude"
-	]
+]
 
 # Linter settings
 [tool.ruff]
@@ -54,7 +54,7 @@ select = ["F",
 	  # "SIM",
 	  # "PTH",
 	  # "RET",
-	 ]
+ ]
 ignore = ["E722"]
 line-length = 120
 # Allow autofix for all enabled rules (when `--fix`) is provided.
@@ -75,7 +75,7 @@ addopts = "--cov --cov-report html --cov-report term-missing --cov-fail-under 5"
 # Type checking
 [tool.mypy]
 # Specify the Python version you are using
-python_version = "3.10"
+python_version = "3.12"
 # avoid folder
 # Exclude specific files or directories from type checking
 # Example:
@@ -108,3 +108,6 @@ extensions = [
 	"sphinx.ext.autosummary",
 ]
 html_theme = "sphinx_rtd_theme"
+
+[tool.codespell]
+ignore-words-list = ""
