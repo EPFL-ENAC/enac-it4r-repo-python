@@ -1,7 +1,4 @@
-
 # Code quality
-
-
 
 
 We use Black as a **code formatter**, Ruff as a **code linter**, and mypy as a **static type checker**. These tools aim to guarantee good code quality.

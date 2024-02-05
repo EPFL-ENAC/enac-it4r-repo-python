@@ -10,4 +10,3 @@ def bar() -> str:
         Python version
     """
     return sys.version
-

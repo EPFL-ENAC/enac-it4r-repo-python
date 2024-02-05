@@ -53,4 +53,3 @@ This repository contains the following files and folders:
  ┣ 📜 README.md: markdown file containing the project's readme.
  ┣ 📜 readthedocs.yml: Settings for readthedocs.
  ```
-
