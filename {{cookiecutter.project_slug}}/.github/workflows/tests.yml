@@ -4,13 +4,13 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   tests:
-    name: ${{ matrix.os }}, Python ${{ matrix.python-version }}${{ matrix.experimental && ', experimental' || '' }}
+    name: ${{ matrix.os }}, Python ${{ matrix.python-version }}
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         os: ["ubuntu-latest"]
-        python-version: ["3.8","3.9","3.10","3.11"]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
     steps:
       - uses: actions/checkout@v3
@@ -28,5 +28,5 @@ jobs:
 
       - name: Test with pytest
         run: |
-          coverage run -m pytest
+          pytest
 {% endraw %}
