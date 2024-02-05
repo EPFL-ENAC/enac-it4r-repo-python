@@ -1,4 +1,4 @@
-from {{cookiecutter.project_slug}}.foo import bar
+from {{cookiecutter.project_slug.replace('-', '_')}}.foo import bar
 
 
 def test_bar():
