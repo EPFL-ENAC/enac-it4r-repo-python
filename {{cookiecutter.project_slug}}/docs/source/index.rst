@@ -1,4 +1,3 @@
-
 Documentation
 =============
 
@@ -13,11 +12,6 @@ Documentation
 
 
    {{cookiecutter.project_slug}}
-
-
-
-
-
 
 
 Indices and tables
